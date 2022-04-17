@@ -1,0 +1,18 @@
+<div>
+  <mat-slider
+    thumbLabel
+    [displayWith]="formatLabel"
+    step="2"
+    min="0"
+    [max]="getnumberOfDays"
+    aria-label="units"
+    [ngStyle]="{ width: '100%' }"
+  ></mat-slider>
+  <div class="slider-description">
+    <span> Jan/2020 </span>
+    <span> Jul/2020 </span>
+    <span> Jan/2021 </span>
+    <span> Jul/2021 </span>
+    <span> Jan/2022 </span>
+  </div>
+</div>
