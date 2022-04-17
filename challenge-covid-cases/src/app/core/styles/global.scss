@@ -1,0 +1,19 @@
+.mat-slider-thumb {
+  color: royalblue;
+}
+.mat-slider:not(.mat-slider-disabled).cdk-focused .mat-slider-thumb-label {
+  border-radius: 2px !important;
+  background-color: white;
+  border: 1px solid rgb(113, 109, 109);
+  width: 100px;
+  transform: rotate(0deg) !important;
+}
+
+.mat-slider-horizontal .mat-slider-thumb-label {
+  transform: translateY(26px) scale(0.01) rotate(0deg) !important;
+}
+
+.cdk-focused .mat-slider-thumb-label-text {
+  transform: rotate(0deg) !important;
+  color: rgba(5, 5, 5, 0.867);
+}
