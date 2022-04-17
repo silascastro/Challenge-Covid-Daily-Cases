@@ -12,7 +12,7 @@ export class DateSliderComponent implements OnInit {
 
   public ngOnInit(): void {}
 
-  public formatLabel(value: number) {
+  public formatLabel(value: number): string {
     const day = 86400000;
     const firstDayMilesseconds = new Date(2020, 0, 1).getTime();
     const selectDate = new Date(firstDayMilesseconds + day * value);

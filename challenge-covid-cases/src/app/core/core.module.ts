@@ -6,5 +6,6 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [],
   imports: [CommonModule, HttpClientModule],
+  providers: [DailyCaseService],
 })
 export class CoreModule {}
